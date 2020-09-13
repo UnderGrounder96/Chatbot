@@ -40,10 +40,10 @@ In order to install Pip, one could should use the commands:
     # Install all requried pip modules
     $ pip install -r requirements.txt
 
-iii) Download nltk 'punkt'
-While in interactive mode:
+iii) Download nltk 'all'
+While in interactive mode or using the command:
 
-    $ python3 -c "import nltk; nltk.download('punkt')"
+    $ python3 -c "import nltk; nltk.download('all')"
     [...]
 
 iv) Manually install Nvidia[CUDA devkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=debnetwork).

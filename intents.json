@@ -5,7 +5,7 @@
       "patterns": [
         "Hi",
         "Hello",
-        "Whats up",
+        "What's up",
         "Good day",
         "How are you",
         "Is anyone there?"
@@ -43,7 +43,7 @@
       "patterns": [
         "What is your name",
         "What should I call you",
-        "Whats your name?"
+        "What's your name?"
       ],
       "responses": ["You can call me Bot.", "I'm Bot!", "My name is Le Bot"]
     },
