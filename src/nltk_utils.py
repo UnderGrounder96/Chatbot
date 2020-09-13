@@ -46,7 +46,7 @@ def bag_of_words(tokenized_sentence, all_words):
     sentence_words = [stem(word) for word in tokenized_sentence]
 
     # initialize bag with 0 for each word
-    #TODO: check if we can just use list_comprehension, instead of np.float32
+    # TODO: check if we can just use list_comprehension, instead of np.float32
     bag_words = np.zeros(len(all_words), dtype=np.float32)
     for idx, word in enumerate(all_words):
         if word in sentence_words:
