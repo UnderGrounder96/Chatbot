@@ -14,7 +14,6 @@
         "Hello!",
         "Hey :-)",
         "Hello my friend, welcome!",
-        "Hi there, how can I help?",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?"
       ]
@@ -67,7 +66,8 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "How can I pay?"
       ],
       "responses": [
         "We accept VISA, Mastercard and Paypal",
@@ -79,8 +79,9 @@
       "patterns": [
         "I'd like to buy something",
         "What's on the menu?",
-        "What do you reccommend?",
-        "Could I get something to eat"
+        "What do you recommend?",
+        "Could I get something to eat?",
+        "What do you sell?"
       ],
       "responses": [
         "We sell chocolate chip cookies for $2!",
@@ -103,7 +104,10 @@
         "What are your hours",
         "Hours of operation"
       ],
-      "responses": ["We are always open 9h to 17h Monday to Friday!"]
+      "responses": [
+        "We are always open 9h to 17h Monday to Friday!",
+        "Our hours are 9h to 17h every day"
+      ]
     },
     {
       "tag": "funny",

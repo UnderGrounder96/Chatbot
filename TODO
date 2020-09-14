@@ -1,0 +1,3 @@
+- [] add tests for main.py, bot_train.py and model.py
+- [] it would be great if the bot could use some kind of dictionary
+- [x] release v0.3
