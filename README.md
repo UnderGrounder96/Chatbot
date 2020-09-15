@@ -24,7 +24,7 @@ It is possible that Python has been already installed, one could check by using 
     # Installs latest available python3
     $ sudo apt install -y python3
 
-ii) Installing Pip v20+<br />
+ii) Installing Pip v20+ and required modules<br />
 In order to install Pip, one could should use the commands:
 
     $ python3 -m pip --version
@@ -46,15 +46,23 @@ While in interactive mode or using the command:
     $ python3 -c "import nltk; nltk.download('all')"
     [...]
 
-iv) Manually install Nvidia[CUDA devkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=debnetwork).
+iv) (Optionally) Install Nvidia[CUDA devkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=debnetwork).
 
 ## Deployment
 
-TBA
+**WARNING:** Please run the code from root project!!!<br />
+
+```
+$ cd Chatbot
+$ python src/bot_train.py
+[...]
+$ python src/main.py
+[Let's chat! (type 'quit' to exit)]
+```
 
 ## Versioning
 
-Version 0.2 - Current version<br />
+Version 0.3 - Current version<br />
 
 ## Author
 
@@ -68,5 +76,12 @@ This project is licensed under the GPL License - see the LICENSE.md file for det
 
 Official sites:
 
-https://www.python.org/<br />
+https://python.org/<br />
 https://github.com/pypa/pip<br />
+https://nltk.org/book/
+
+Special thanks:
+
+[Python engineer](https://github.com/python-engineer)<br />
+[alecxe](https://stackoverflow.com/a/34714208)<br />
+[arturomp](https://stackoverflow.com/a/19794953)

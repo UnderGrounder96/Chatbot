@@ -17,6 +17,6 @@ class TestNltkUtils:
 
 
   def test_bag_of_words(self):
-      result = bag_of_words("a", ["a", "b"])
+      result = bag_of_words('b', ['a', 'b'])
       assert any(result) and not all(result)
       assert len(result) == 2
