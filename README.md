@@ -46,7 +46,7 @@ While in interactive mode or using the command:
     $ python3 -c "import nltk; nltk.download('all')"
     [...]
 
-iv) (Optionally) Install Nvidia[CUDA devkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=debnetwork).
+iv) (Optionally) Install [Nvidia CUDA devkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=debnetwork).
 
 ## Deployment
 
