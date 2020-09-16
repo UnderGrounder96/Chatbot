@@ -29,7 +29,8 @@ def stem(word):
       words = ['organize', 'organizes', 'organizing']
       [stem(w) for w in words] -> ['organ', 'organ', 'organ']
     """
-    return SnowballStemmer("porter").stem(word.lower())
+    # return SnowballStemmer("porter").stem(word.lower())
+    return SnowballStemmer("english", ignore_stopwords=True).stem(word.lower())
 
 
 def bag_of_words(tokenized_sentence, all_words):
